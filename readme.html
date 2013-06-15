@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>Adichatz: Developping RCP Application in a few minutes</TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 4.0.2.2 (Windows)">
+	<META NAME="AUTHOR" CONTENT="Yves Arpheuil">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGED" CONTENT="20130615;10234928">
+	<META NAME="copyright" CONTENT="Yves Arpheuil">
+	<META NAME="revisit-after" CONTENT="7 days">
+	<META NAME="robots" CONTENT="all">
+	<META NAME="CHANGEDBY" CONTENT="Yves de Montbrun">
+	<META NAME="CHANGEDBY" CONTENT="Yves de Montbrun">
+	<META NAME="CHANGEDBY" CONTENT="Yves de Montbrun">
+	<!-- Document HEAD -->
+	<!-- Document BODY -->
+	<STYLE TYPE="text/css">
+	<!--
+		P { font-family: "Verdana", "Arial", "Helvetica", sans-serif }
+		H2 { background: #f0f0f0; border-top: none; border-bottom: 1px solid #dddddd; border-left: none; border-right: none; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0cm; padding-right: 0cm }
+		H2.cjk { font-family: "SimSun" }
+		H2.ctl { font-family: "Mangal" }
+		H3 { background: #f0f0f0; border-top: none; border-bottom: 1px solid #dddddd; border-left: none; border-right: none; padding-top: 0cm; padding-bottom: 0.26cm; padding-left: 0cm; padding-right: 0cm }
+		H3.cjk { font-family: "SimSun" }
+		H3.ctl { font-family: "Mangal" }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="fr-FR" DIR="LTR">
+<DIV ID="container-outer" DIR="LTR">
+	<P><BR><BR>
+	</P>
+	<DIV ID="container-inner" DIR="LTR">
+		<P><BR><BR>
+		</P>
+		<DIV ID="content-inner" DIR="LTR">
+			<H2 CLASS="western">RichText-SWT</H2>
+			<P>A small editor widget managing bold, underline, hyperlink
+			around a StyledText widget.</P>
+			<P>This work is derived from work of Alonso Dominguez ( see on
+			<A HREF="http://www.javacodegeeks.com/2012/07/richtext-editor-component-for-swt-based.html">javacodeggeks.com</A>).<BR><BR><BR>
+			</P>
+			<H3 CLASS="western">License</H3>
+			<P><!-- GPL -->Adichatz work is free software distributed under
+			the <A HREF="http://www.cecill.info/licences/Licence_CeCILL_V2-en.html"><SPAN LANG="en-US">CeCILL
+			version 2</SPAN></A> license.<!-- /Creative Commons License --> 
+			</P>
+			<H3 CLASS="western">Features</H3>
+			<UL>
+				<LI><P STYLE="margin-bottom: 0cm">Add Bold, Italic, underline,
+				strikethrough feature to character.</P>
+				<LI><P STYLE="margin-bottom: 0cm">Cut, Copy, Paste.</P>
+				<LI><P STYLE="margin-bottom: 0cm">Add Hyperlink (browser or mail
+				access).</P>
+				<LI><P STYLE="margin-bottom: 0cm">Buttons can be added after
+				RichText is instantiated:<BR><FONT FACE="Segoe UI, sans-serif"><FONT SIZE=2>
+				 	new ToolItem(richText.getToolBar(), SWT.SEPARATOR);<BR> 
+					refreshItem = new ToolItem(richText.getToolBar(),
+				SWT.CHECK);<BR>		refreshItem.setImage(refreshImage);<BR>		refreshItem.setToolTipText(&quot;Refresh&quot;);<BR>		refreshItem.addSelectionListener(new
+				SelectionAdapter() {<BR>			@Override<BR>			public void
+				widgetSelected(SelectionEvent e)
+				{<BR>					setValue(initialValue);<BR>					refreshItem.setEnabled(false);<BR>
+				         				richText.getToolBar().update();<BR>			}<BR>		});<BR>
+				   richText.getToolBar().update();</FONT></FONT><BR>    
+				</P>
+				<P STYLE="margin-bottom: 0cm; page-break-before: always"></P>
+			</UL>
+			<H3 CLASS="western">Screenshots</H3>
+			<P>General aspect&nbsp;:</P>
+		</DIV>
+	</DIV>
+</DIV>
+<P><IMG SRC="resources/readme_html_m27614ef4.jpg" NAME="images1" ALIGN=LEFT WIDTH=521 HEIGHT=292 BORDER=0><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P>Add hyperlink</P>
+<P><IMG SRC="resources/readme_html_ma2272a4.jpg" NAME="images2" ALIGN=LEFT WIDTH=412 HEIGHT=272 BORDER=0><!-- /container_inner --><!-- /container_outer --><BR><BR>
+</P>
+</BODY>
+</HTML>
