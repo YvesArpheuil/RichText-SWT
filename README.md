@@ -10,4 +10,4 @@ This work is derived from work of Alonso Dominguez
 - Add Bold, Italic, underline, strikethrough feature to character.
 - Cut, Copy, Paste.
 - Add Hyperlink (browser or mail access).
-- Buttons can be added after RichText is instantiated:
+- Buttons can be added after RichText is instantiated.
