@@ -631,8 +631,6 @@ public class RichText extends Composite {
 			if (styleRange != null && styleRange.underline && styleRange.underlineStyle == SWT.UNDERLINE_LINK)
 				return (String) styleRange.data;
 		} catch (IllegalArgumentException e) { // Invalid offset location
-			System.out.println("AVISATZ: IllegalArgumentException");
-			e.printStackTrace();
 		}
 		return null;
 	}
